@@ -119,7 +119,7 @@
 % ---
 \setlrmarginsandblock{3cm}{3cm}{*}
 \setulmarginsandblock{3cm}{3cm}{*}
-\checkandfixthelayout
+\checkandfixthelayout{}
 % ---
 
 % --- 
@@ -133,7 +133,7 @@
 \setlength{\parskip}{0.2cm}  % tente também \onelineskip
 
 % Espaçamento simples
-\SingleSpacing
+\SingleSpacing{}
 
 % ----
 % Início do documento
@@ -176,79 +176,40 @@
 % ----------------------------------------------------------
 % ELEMENTOS TEXTUAIS
 % ----------------------------------------------------------
-\textual
+\textual{}
 
 % ----------------------------------------------------------
 % Introdução
 % ----------------------------------------------------------
-\section*{O pensamento em preto-e-branco}
-\addcontentsline{toc}{section}{O pensamento em preto-e-branco}
+\section{O Ínicio da Fotografia Espacial}
+\addcontentsline{toc}{section}{O Ínicio da Fotografia Espacial}
 
+A humanidade estuda o universo e suas origens desde a pré-história, por isso a 
+astronomia é frequentemente considerada a mais antiga das ciências naturais.
+~\cite{astronomiaantiga}
 
-A definição mais básica para fotografia em preto e branco é a ausência de qualquer cor na foto. A fotografia em preto e branco é uma fotografia monocromática, porém, a reciproca não é verdadeira. Por exemplo, há fotografias monocromáticas que possuem tons de amarelo e vermelho (sépia), outras em tons de azul. Porém, um fotografia só se torna uma foto em preto-e-branco se os tons forem cinzas. De acordo com \citeonline{SITEGURUSHOTS} você deve se treinar a ver em tons se deseja se tornar profissional nesse tipo de fotografia. \citeonline{SITEMASTERING} destaca que ver sem cores é focar sua atenção nas formas e  sombras, e pensar em como elas trabalham na composição. Mesmo quando há pouca luz e formas pouco definidas, esses elementos permanecem como motores principais do sentido da fotografia. Além disso, o autor também destaca que nos casos de pouca luminosidade, os fatores citados anteriormente se tornam mais integrados, seja na relação forma para o \textit{frame}, forma para o ambiente ou forma para forma, pois no preto-e-branco esses relacionamentos se tornam mais evidentes que na cor.
-\citeonline{SITE7TIPS} diz que se você deseja imagens com um contraste muito alto e uma gradação de tons muito elevados também, deve-se utilizar luz dura. Por outro lado, se é desejável obter tons suaves e imagens sutis, a escolha deve ser de uma luz difusa.
+Um passo importante da evolução da astronomia foi a invenção do telescópio no 
+século XVII por Hans Lippershey que foi utilizado pelo físico e astrônomo
+Galileu Galilei em suas pesquisas.~\cite{ronan1987historia}
 
-\citeonline{SITEGURUSHOTS} considera a existência de 5 pilares para a fotografia em preto-e-branco, são eles: contraste, tons, texturas, formas e sombras. Entretanto, para o retrato em preto e branco, que é a proposta desse artigo, serão considerados os seguintes elementos: iluminação, expressão, composição e pós-processamento.
+O telescópio permitiu a visualização dos objetos distantes no espaço. Galileu 
+verificou pela primeira vez que a Via Lactea é formada por uma miríades de 
+estrelas (e não era uma ``emanação'' como se pensava até essa época). Depois de
+observar os satélites de Júpter ele passou a defender o modelo heliocêntrico do
+Sistema Solar que havia sido proposto por Copérnico antes dele.
+
+Agora que podíamos ver objetos no espaço que antes estavam ocultos pela
+distância, nada mais natural que registrálos. No entanto, registrar imagens com
+pouca ou virtualmente nenhuma luz não é uma tarefa trivial. Abaixo segue um
+resumo dos principais eventos no mundo da fotografia envolvendo o espaço e suas
+datas:
 
 % ----------------------------------------------------------
 % Seção de explicações
 % ----------------------------------------------------------
 \section{Os elementos do retrato preto-e-branco}
 
-\subsection{A iluminação básica para o retrato}
-
-Segundo \citeonline{SITE6LUZ}, existem 6 (seis) padrões de iluminação clássicos a captura de um retrato. Padrão de iluminação é, de uma maneira resumida, a forma como a luz interage com as características faciais do modelo, criando áreas de luz e sombra. 
-O que diferencia os padrões de iluminação é a forma da sombra criada no rosto do modelo. Os padrões de iluminação são a luz curta, luz ampla, luz borboleta, luz dividida, luz de \textit{loop} e a luz de Rembrandt. Abaixo são descritas brevemente as formas de iluminação, ao passo que são exemplificadas pela figura \ref{img:classic}.
-
-\begin{itemize}
-	\item A luz curta é utilizada para gerar uma sombra no lado do rosto do modelo mais próximo a câmera (figura \ref{img:short}).
-	\item Ao contrário da luz curta, a luz ampla forma sombra no lado mais distante do rosto do modelo (figura \ref{img:broad}).
-	\item A luz borboleta é caracterizada pela forma de borboleta gerada sob o nariz do modelo (figura \ref{img:butter}).
-	\item A luz dividida possui esse nome porque divide o rosto do modelo em dois lados iguais, um iluminado e outro sombreado (figura \ref{img:split}).
-	\item Na luz de loop são geradas pequenas sombras no nariz e bochechas do modelo (figura \ref{img:loop}).
-	\item A luz de Rembrandt é definida pelo triângulo de luz formado na bochecha do modelo (figura \ref{img:rembrandt}). 
-\end{itemize}
-
-Todos esses padrões de iluminação são obtidos variando a posição da fonte luminosa em relação ao modelo, seja horizontalmente ou verticalmente. Porém esse assunto não será abordado aqui, pois tal abordagem profunda foge do escopo desse artigo.
-
-\begin{figure}[!htb]
-\centering
-    \caption{\label{img:classic} Iluminações clássicas para o retrato}
-    \subcaptionbox{\label{img:short} Luz curta}{\includegraphics[scale=.15]{img/short}}\qquad
-    \subcaptionbox{\label{img:broad} Luz ampla}{\includegraphics[scale=.25]{img/broad}}\qquad
-    \subcaptionbox{\label{img:butter} Luz borboleta}{\includegraphics[scale=.26]{img/butter}}\\
-    \vspace{1.5em}
-    \subcaptionbox{\label{img:split} Luz dividida}{\includegraphics[scale=.25]{img/split}}\qquad
-    \subcaptionbox{\label{img:loop} Luz de \textit{loop}}{\includegraphics[scale=.25]{img/loop}}\qquad
-    \subcaptionbox{\label{img:rembrandt} Luz de Rembrandt}{\includegraphics[scale=.26]{img/rembrandt}}\\
-    \vspace{2.5em}
-    \legend{\textbf{Fonte:} \cite{SITE6LUZ}}
-\label{fig:dag}
-\end{figure}
-
-\newpage
-
-\subsection{A expressão}
-
-Segundo \citeonline{SITE7TIPS}, a omissão da cor provoca a divisão da imagem em preto-e-branco em formas e formas-gráficas. Devido a isso, a expressão do assunto, por menor que seja, se torna mais proeminente, como por exemplo uma sobrancelha levantada, rugas e até mesmo uma contração no canto da boca. 
-
-Entretanto, o autor destaca fortemente que a parte mais importante da expressão são os olhos. Os olhos são utilizados comumente como ponto focal e sua fotografia deve ser construída em torno deles. As formas dos olhos são facilmente reconhecidas e capturam imediatamente a atenção do observador. Desta forma, é muito importante que eles estejam focados e bem iluminados.
-
-De acordo com \citeonline{SITE5TIPS}, é interessante que se tenha um contato maior com o modelo, no sentido de explorar uma conversa e prestar atenção nas expressões do modelo quando determinados assuntos são colocados em pauta, para então tentar capturar aquele momento íntimo e revelar o verdadeiro caráter do modelo.
-
-\subsection{A composição}
-
-A mensagem deste tópico é, mantenha a composição o mais simples possível. A própria fotografia em preto-e-branco é uma simplificação na composição, pois remove a cor da cena. É importante manter o fundo o mais organizado possível, mesmo que isso signifique se aproximar do modelo ou usar uma grande abertura para desfocar o fundo, consequentemente removendo distrações e chamando a atenção para o modelo \cite{SITE5TIPS}.
-
-Como dito anteriormente, a expressão, o olhar e a iluminação sobre o modelo devem estar em ressonância para se obter uma boa composição através das formas geradas, sombras, valores tonais e demais fatores, porém sempre tendo em mente que o objeto da foto é o modelo.
-
-\subsection{Pós-processamento}
-
-Quando se trata de edição, é necessário saber explorar as várias opções que o \textit{software} adotado fornece. Converter um retrato para preto-e-branco, pode não resultar em uma imagem atraente até que seja realizados os ajustes de tons, curvas e claridade necessários. Tais ajuste permitem o aprofundamento das sombras e a claridade dos realces da foto.Uma outra possibilidade é adicionar um pouco de ruído, simulando a captura através de uma câmera analógica antiga \cite{SITEEXPERT}.
-
-Em relação aos ajustes, há de se ter um cuidado quando se ajusta a claridade de uma imagem, por um lado, as texturas se tornam mais evidentes, o que é um ponto positivo para a fotografia em preto-e-branco. Por outro lado, aumentar demais a claridade pode tornar os tons de pele texturizado demais, isso é um problema especialmente para modelos femininas, onde se espera uma pele mais suave \cite{SITE5TIPS}.
-
-No pós-processamento não há uma "receita de bolo", muitas das edições dependem unicamente da criatividade do autor. É claro que existem alguns passos básicos como citados anteriormente, tais como correção de tons, contraste, exposição e dentre outros, mas o que torna a imagem única é encontrar o processo que atende o gosto pessoal de cada fotógrafo. 
+\lipsum[1]
 
 % ---
 % Finaliza a parte no bookmark do PDF, para que se inicie o bookmark na raiz
@@ -259,7 +220,7 @@ No pós-processamento não há uma "receita de bolo", muitas das edições depen
 % ---
 % Conclusão
 % ---
-\section*{Considerações finais}
+\section{Considerações finais}
 \addcontentsline{toc}{section}{Considerações finais}
 
 \lipsum[1]
@@ -273,7 +234,7 @@ No pós-processamento não há uma "receita de bolo", muitas das edições depen
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
 % ----------------------------------------------------------
-\postextual
+\postextual{}
 
 % ----------------------------------------------------------
 % Referências bibliográficas
